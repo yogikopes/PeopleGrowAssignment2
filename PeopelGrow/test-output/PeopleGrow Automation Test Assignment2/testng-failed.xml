@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PeopleGrow Automation Test Assignment2]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PeopleGrow Test Cases(failed)">
+    <classes>
+      <class name="com.peoplegrow.qa.testcases.InspirationForYouTest">
+        <methods>
+          <include name="clickonInspirationalTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.peoplegrow.qa.testcases.InspirationForYouTest -->
+    </classes>
+  </test> <!-- PeopleGrow Test Cases(failed) -->
+</suite> <!-- Failed suite [PeopleGrow Automation Test Assignment2] -->
