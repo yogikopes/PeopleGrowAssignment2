@@ -38,7 +38,7 @@ public class InspirationForYou extends TestBase {
 		int randomIndex=rand.nextInt(LS.size());
 		WebElement selectedOption=LS.get(randomIndex);
 		selectedOption.click();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		
 		careerpathBack.click();
@@ -46,10 +46,12 @@ public class InspirationForYou extends TestBase {
 		
 
 	}
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		homeLink.click();
 		
 		driver.navigate().refresh();
 
 }
+	
+	
 }

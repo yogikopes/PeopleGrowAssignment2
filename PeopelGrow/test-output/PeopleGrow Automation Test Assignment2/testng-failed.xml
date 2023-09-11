@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [PeopleGrow Automation Test Assignment2]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.peoplegrow.qa.TestListener.Listener"/>
+  </listeners>
   <test thread-count="5" name="PeopleGrow Test Cases(failed)">
     <classes>
-      <class name="com.peoplegrow.qa.testcases.InspirationForYouTest">
+      <class name="com.peoplegrow.qa.testcases.HomePageTest">
         <methods>
-          <include name="clickonInspirationalTest"/>
           <include name="setup"/>
+          <include name="verifyclickonCareerLinkTest"/>
         </methods>
-      </class> <!-- com.peoplegrow.qa.testcases.InspirationForYouTest -->
+      </class> <!-- com.peoplegrow.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- PeopleGrow Test Cases(failed) -->
 </suite> <!-- Failed suite [PeopleGrow Automation Test Assignment2] -->
